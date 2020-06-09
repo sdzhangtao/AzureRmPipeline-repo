@@ -21,6 +21,6 @@ steps:
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
     overrideParameters: |
-      -projectName TaoRMPipeline -linkedTemplateUri https://raw.githubusercontent.com/sdzhangtao/AzureRmPipeline-repo/master/CreateWebApp/linkedStorageAccount.json
+      -projectName taormpipeline -linkedTemplateUri https://raw.githubusercontent.com/sdzhangtao/AzureRmPipeline-repo/master/CreateWebApp/linkedStorageAccount.json
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
